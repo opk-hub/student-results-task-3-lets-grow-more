@@ -1,0 +1,75 @@
+.appointment-item {
+    list-style-type: none;
+    border: 1px solid #b5b7c4;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    width: 400px;
+    max-width: 600px;
+    height: 100%; 
+  }
+ 
+
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  
+  .title {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  
+
+  
+  .star-button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    align-self: center;
+    border: none;
+    outline: none;
+  }
+  
+
+  
+  .data {
+    color: #7e858e;
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin: 0px;
+  }
+  
+  .vertical-line {
+    border-left: 10px solid #1a2b9a;
+    height: 100%;
+    margin-left: 25px; 
+    margin-right: 32px; 
+  }
+
+.hr{
+  border-top: 2px solid ;
+  width: 100px;
+}
+.img{
+  margin: 20px;
+}
